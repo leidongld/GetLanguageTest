@@ -1,28 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_margin="16dp"
+    android:layout_width="match_parent"
     tools:context="com.example.leidong.getlanguagetest.MainActivity">
-    <TextView
-        android:id="@+id/textView"
-        android:layout_height="433dp"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:paddingLeft="16dp"
-        android:paddingTop="16dp"
-        android:paddingBottom="16dp"
-        android:paddingRight="16dp"
-        android:textSize="40sp"
-        android:textStyle="italic"
-        android:textColor="#ffffff"
-        android:textAllCaps="false"
-        android:background="#686868"/>
-    <Button
-        android:id="@+id/button"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:text="获 取 语 言"/>
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getCountry()"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView1"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getLanguage()"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getDisplayCountry()"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getDisplayLanguage()"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getDisplayName()"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView5"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getISO3Country"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView6"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getISO3Language()"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView7"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getISO3Countries()"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView8"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:text="getISO3Languages()"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/textView9"
+                android:text="N U L L"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="4dp"
+                android:background="#676767"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获 取 语 言 信 息"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+</ScrollView>
